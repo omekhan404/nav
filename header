@@ -1,0 +1,71 @@
+<html>
+<body>
+<header>
+<div class="navigation-menu">
+<div class="logo">
+  <a href="https://www.redd.co.mz">
+    <img src="https://www.redd.co.mz/assets/img/redd/redd-logo-black-red-no-bg.svg" width="118px" height="42px"
+      alt="Redd Logótipo Oficial - Cor Vermelha">
+  </a>
+</div>
+<nav class="menu">
+  <ul>
+    <li><a href="https://www.redd.co.mz/company">A Empresa</a></li>
+    <li><a href="https://www.redd.co.mz/service">Serviços</a></li>
+    <li><a href="https://www.redd.co.mz/product">Produtos</a></li>
+    <li class="submenu">
+      <span class="submenu-dropdown">
+        <a href="#">Programas
+          <span>
+            <img class="arrow-down-icon" type="image/svg+xml" src="https://www.redd.co.mz/assets/icons/icon-triangular-arrow-down.svg" width="10px"
+             height="10px" alt="Ícone Seta para Baixo">
+          </span>
+        </a>
+      </span>
+      <ul>
+        <li><a href="https://www.redd.co.mz/programme/comission">Comissões</a></li>
+      </ul>
+    </li>
+    <li><a href="https://www.redd.co.mz/company/support">Suporte</a></li>
+  </ul>
+</nav>
+<span class="hamburger-toggle-button">
+  <svg class="hamburger-menu-icon" viewBox="0 0 24 24">
+    <path d="M2 6h20M2 12h20M2 18h20" stroke="#fff" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round" />
+  </svg>
+</span>
+<div class="mobile-menu nav-drawer inactive" tabindex="-1">
+  <span class="close-button">
+    <svg class="close-button-icon" viewBox="0 0 24 24">
+      <path d="M5.5 5.5L18.5 18.5M18.5 5.5L5.5 18.5" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </svg>
+  </span>
+  <ul>
+    <li><a href="https://www.redd.co.mz/company">A Empresa</a></li>
+    <li><a href="https://www.redd.co.mz/service">Serviços</a></li>
+    <li><a href="https://www.redd.co.mz/product">Produtos</a></li>
+    <li class="treeview disabled">
+      <span class="treeview-wrapper">
+        <a href="#">
+          <span class="treeview-arrow">
+            <svg class="arrow arrow-right" viewBox="0 0 123.96 123.96">
+              <path
+                d="m28.018 5.9797v112c0 5.3 6.4 8 10.2 4.2l56-56c2.3-2.3 2.3-6.1 0-8.401l-56-56c-3.8-3.799-10.2-1.099-10.2 4.201z" />
+            </svg>
+          </span>
+          Programas
+        </a>
+      </span>
+      <ul class="nested">
+        <li class="nested-item treeview-collapse"><a href="https://www.redd.co.mz/programme/comission">Comissões</a></li>
+      </ul>
+    </li>
+    <li><a href="https://www.redd.co.mz/company/support">Suporte</a></li>
+  </ul>
+</div>
+</div>
+</header>
+</body>  
+</html>
